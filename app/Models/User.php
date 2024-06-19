@@ -44,4 +44,48 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+    // Relationships
+    public function posts()
+    {
+        return $this->hasMany(Post::class);
+    }
+
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
+    }
+
+    public function roles()
+    {
+        return $this->belongsToMany(Role::class);
+    }
+
+    // Mutators and Accessors
+    public function setPasswordAttribute($value)
+    {
+        $this->attributes['password'] = bcrypt($value);
+    }
+
+    public function getNameAttribute($value)
+    {
+        return ucfirst($value);
+    }
+
+    // Scopes
+    public function scopeActive($query)
+    {
+        return $query->where('active', 1);
+    }
+
+    public function scopeVerified($query)
+    {
+        return $query->whereNotNull('email_verified_at');
+    }
+
+    // Notifications
+    public function sendCustomNotification($message)
+    {
+        $this->notify(new CustomNotification($message));
+    }
+
 }
