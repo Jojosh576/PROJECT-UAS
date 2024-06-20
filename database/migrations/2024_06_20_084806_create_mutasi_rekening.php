@@ -11,10 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('info_saldo', function (Blueprint $table) {
+        Schema::create('mutasi_rekening', function (Blueprint $table) {
             $table->id();
-            $table->string('Nomor_Rekening');
-            $table->string('Jumlah_Saldo');
+            $table->date('Tanggal');
+            $table->integer('Debit');
+            $table->integer('Kredit');
+
             $table->timestamps();
         });
     }
@@ -24,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('info_saldo');
+        Schema::dropIfExists('mutasi_rekening');
     }
 };
