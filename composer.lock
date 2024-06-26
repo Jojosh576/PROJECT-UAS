@@ -1052,6 +1052,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v11.11.1",
             "source": {
                 "type": "git",
@@ -1062,6 +1063,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/c9b52e84bd18f155e5ba59b948c7da3e7f37e87f",
                 "reference": "c9b52e84bd18f155e5ba59b948c7da3e7f37e87f",
+=======
+            "version": "v11.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "194102876df42f9f5bb618efa55fa7e15ebf40aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/194102876df42f9f5bb618efa55fa7e15ebf40aa",
+                "reference": "194102876df42f9f5bb618efa55fa7e15ebf40aa",
+>>>>>>> 38e068530605f35df79632cf1d92e097dcf86627
                 "shasum": ""
             },
             "require": {
@@ -1253,7 +1266,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+<<<<<<< HEAD
             "time": "2024-06-20T10:54:53+00:00"
+=======
+            "time": "2024-06-18T17:40:27+00:00"
+>>>>>>> 38e068530605f35df79632cf1d92e097dcf86627
         },
         {
             "name": "laravel/prompts",
@@ -1918,6 +1935,7 @@
         },
         {
             "name": "nesbot/carbon",
+<<<<<<< HEAD
             "version": "3.6.0",
             "source": {
                 "type": "git",
@@ -1928,6 +1946,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/39c8ef752db6865717cc3fba63970c16f057982c",
                 "reference": "39c8ef752db6865717cc3fba63970c16f057982c",
+=======
+            "version": "3.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/briannesbitt/Carbon.git",
+                "reference": "415782b7e48223342f1a616c16c45a95b15b2318"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/415782b7e48223342f1a616c16c45a95b15b2318",
+                "reference": "415782b7e48223342f1a616c16c45a95b15b2318",
+>>>>>>> 38e068530605f35df79632cf1d92e097dcf86627
                 "shasum": ""
             },
             "require": {
@@ -2020,7 +2050,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-06-20T15:52:59+00:00"
+=======
+            "time": "2024-06-03T17:25:54+00:00"
+>>>>>>> 38e068530605f35df79632cf1d92e097dcf86627
         },
         {
             "name": "nette/schema",
@@ -6675,6 +6709,7 @@
         },
         {
             "name": "phpunit/phpunit",
+<<<<<<< HEAD
             "version": "11.2.5",
             "source": {
                 "type": "git",
@@ -6685,6 +6720,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/be9e3ed32a1287a9bfda15936cc86fef4e4cf591",
                 "reference": "be9e3ed32a1287a9bfda15936cc86fef4e4cf591",
+=======
+            "version": "11.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "8475044fbb0af57c8daea06bcfe21e2785401f97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/8475044fbb0af57c8daea06bcfe21e2785401f97",
+                "reference": "8475044fbb0af57c8daea06bcfe21e2785401f97",
+>>>>>>> 38e068530605f35df79632cf1d92e097dcf86627
                 "shasum": ""
             },
             "require": {
@@ -6755,7 +6802,11 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/11.2.5"
+=======
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.2.3"
+>>>>>>> 38e068530605f35df79632cf1d92e097dcf86627
             },
             "funding": [
                 {
@@ -6771,7 +6822,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-06-20T13:11:31+00:00"
+=======
+            "time": "2024-06-19T05:31:11+00:00"
+>>>>>>> 38e068530605f35df79632cf1d92e097dcf86627
         },
         {
             "name": "sebastian/cli-parser",
